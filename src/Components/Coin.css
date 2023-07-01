@@ -1,0 +1,40 @@
+.heading{
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: antiquewhite;
+}
+.coin-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 12px blue;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+    color: antiquewhite;
+}
+.img-src {
+    display: flex;
+    align-items: center;
+}
+img {
+    height: 40px;
+    margin-right: 8px;
+    width: auto;
+}
+
+.coin-row:hover {
+    transform: scale(1.04);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
